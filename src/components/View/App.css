@@ -1,0 +1,29 @@
+
+  
+  .card {
+    height: 76vh;
+    border-radius: 6px;
+    box-shadow: 5px 8px 4px rgba(0,0,0,0.3);
+    padding: 2rem;
+    width: 40vw;
+    background-color:  #003636;
+  
+  }
+  
+  .product-canvas {
+    width: 36vw;
+    height: 58vh;
+    background:white;
+    
+    border-radius: 2px;
+    margin-bottom:18px
+  
+  }
+  
+  .colors {
+  display:flex;
+  flex-direction:row;
+  }
+  
+  .colors div {padding:4px;}
+
