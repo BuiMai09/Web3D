@@ -8,12 +8,10 @@ const AllItem = () => {
     return (
         <div className="w-full">
             <div className="fixed top-0 z-10">
-
                 <Nav />
             </div>
-            <div className="relative top-24 mb-20  ">
-                <div className="flex flex-wrap gap-8 justify-center items-center">
-
+            <div className="relative top-24   ">
+                <div className="flex flex-wrap gap-12 justify-center items-center">
                     <CardItem1 />
                     <CardItem2 />
                     <CardItem3 />

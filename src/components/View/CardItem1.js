@@ -1,8 +1,8 @@
-import './App.css'
-import Model from "../three/Ford_gt_2006"
 import { Canvas } from "@react-three/fiber";
-import { useRef, Suspense, useState } from "react";
-import { useGLTF, OrbitControls, Stage, PresentationControls } from "@react-three/drei";
+import { Suspense } from "react";
+import { OrbitControls } from "@react-three/drei";
+import './App.css'
+import ModelCar1 from "../three/Free_1975_porsche_911_930_turbo"
 
 const CardItem1 = () => {
 
@@ -17,13 +17,14 @@ const CardItem1 = () => {
                             penumbra={1}
                             position={[1, 10, 5]}
                             castShadow />
-                        <Model scale={1.3} rotation={[0.6, 30, 0]} />
+                        <ModelCar1 scale={1.3} rotation={[0.6, 30, 0]} />
                         <OrbitControls enablePan={true}
                             enableZoom={true}
                             enableRotate={true} />
                     </Suspense>
                 </Canvas>
-                <div className='text-2xl mt-4 p-4 font-bold text-white text-center'>Ford GT 2006</div>
+                <div className='text-2xl mt-4 p-4 font-bold text-white text-center cursor-poiter'>
+                    <a href="http://localhost:8001">Ford GT 2006</a></div>
             </div>
 
 
