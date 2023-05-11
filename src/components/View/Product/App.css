@@ -1,0 +1,30 @@
+  .card {
+    height: 60vh;
+    border-radius: 6px;
+    /* box-shadow: 4px 4px 4px rgba(0,0,0,0.3); */
+    /* padding-left: 4px;
+    padding-top:4px; */
+    width: 24vw;
+    /* background-color:  #112122; */
+    border-width: 2px
+    /* background-color: rgb(28 25 23); */
+  
+  }
+  
+  .product-canvas {
+    width: 24vw;
+    height: 34vh;
+    background: #e2e8f0;
+    /* outline-width: 1px; */
+    border-radius: 2px;
+    margin-bottom:18px
+  
+  }
+  
+  .colors {
+  display:flex;
+  flex-direction:row;
+  }
+  
+  .colors div {}
+

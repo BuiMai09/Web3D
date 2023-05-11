@@ -1,10 +1,12 @@
 
-import AllItem from "./components/View/AllItem";
+import Home from "./components/View/Home/Home";
+// import AllItem from "./components/View/Product/AllItem";
 
 function App() {
   return (
-    <div className="bg-indigo-300">
-      <AllItem />
+    <div className="">
+      {/* <AllItem /> */}
+      <Home />
     </div>
   );
 }
