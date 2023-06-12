@@ -2,13 +2,12 @@
 const Search = () => {
     return (
         <>
-            <div className="flex flex-col mt-10 justify-center items-center mb-8">
-                <div className="text-2xl mt-5 p-4 font-bold text-black text-center">
+            <div className="flex flex-col justify-center items-center mb-6">
+                <div className="text-2xl p-4 font-bold text-black text-center">
                     Which vehicle you are looking for?
                 </div>
                 <div className="flex gap-3 mt-4">
                     <div>
-
                         <select className="border border-slate-600 py-1 rounded-sm" name="cars" id="type">
                             <option value="">Type</option>
                             <option value="">SUV</option>
@@ -50,7 +49,7 @@ const Search = () => {
                     </div>
                     <div className="" >
 
-                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 ">Search<i class="fa fa-search"></i></button>
+                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 ">Search<i class="fa fa-search"></i></button>
                     </div>
                 </div>
 
@@ -58,5 +57,4 @@ const Search = () => {
         </>
     )
 }
-
 export default Search;

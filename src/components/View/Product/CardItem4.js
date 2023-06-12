@@ -12,12 +12,12 @@ const CardItem4 = () => {
                 <Canvas >
                     <Suspense fallback={null}>
                         <ambientLight />
-                        <spotLight intensity={0.9}
-                            angle={0.1}
+                        <spotLight intensity={5}
+                            angle={1}
                             penumbra={1}
                             position={[1, 10, 5]}
                             castShadow />
-                        <ModelCar4 scale={3} rotation={[0.4, 5, 0]} />
+                        <ModelCar4 scale={3.7} rotation={[0.5, 1.4, 0.1]} position={[0, -0.6, 0]} />
                         <OrbitControls enablePan={true}
                             enableZoom={true}
                             enableRotate={true} />
@@ -27,12 +27,12 @@ const CardItem4 = () => {
             </div>
             <div>
                 <div className='text-2xl mt-4 ml-4 font-bold text-black cursor-poiter'>
-                    <a href="http://localhost:8001">Ford GT 2006</a></div>
+                    <a href="http://localhost:8000">Ford Mustang</a></div>
             </div>
-            <div className="text-slate-700 ml-4 text-lg"> 11457 Miles</div>
+            <div className="text-slate-700 ml-4 text-lg"> 10157 Miles</div>
             <div className="font-semibold ml-4 mb-2 text-lg">AWD 4 - Cylinder Turbo</div>
-            <div className="flex gap-12 ml-4">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">$52,100</button>
+            <div className="flex gap-12 ml-4 mb-2">
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">$24,300</button>
                 <button className="bg-orange-200 hover:bg-orange-300 text-slate-700 font-medium py-2 px-4 rounded">Best Seller</button>
             </div>
 
